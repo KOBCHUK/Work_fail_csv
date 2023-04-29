@@ -12,7 +12,7 @@ def input_data():
     city = input('Enter your city: ')
     email = input('Enter your email: ')
     phone = input('Enter your phone: ')
-    return[name, surname, age, gender, city, email, phone]
+    return[name, surname, age, human_gender, city, email, phone]
 
 with open('anketa.csv', 'a', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
